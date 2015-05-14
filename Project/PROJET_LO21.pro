@@ -18,13 +18,16 @@ SOURCES += main.cpp\
     classes_cpp/Programmation.cpp \
     classes_cpp/Projet.cpp \
     classes_cpp/Tache.cpp \
-    classes_cpp/Activite.cpp
+    classes_cpp/Activite.cpp \
+    edittache.cpp
 
 HEADERS  += mainwindow.h \
     timing.h \
     classes/Programmation.h \
     classes/Projet.h \
     classes/Tache.h \
-    classes/Activite.h
+    classes/Activite.h \
+    edittache.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    edittache.ui
