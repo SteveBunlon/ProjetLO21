@@ -18,7 +18,9 @@ SOURCES += main.cpp\
     classes.cpp
 
 HEADERS  += mainwindow.h \
-    classes.h \
-    timing.h
+    timing.h \
+    classes/Programmation.h \
+    classes/Projet.h \
+    classes/Tache.h
 
 FORMS    += mainwindow.ui
