@@ -15,12 +15,16 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     timing.cpp \
-    classes.cpp
+    classes_cpp/Programmation.cpp \
+    classes_cpp/Projet.cpp \
+    classes_cpp/Tache.cpp \
+    classes_cpp/Activite.cpp
 
 HEADERS  += mainwindow.h \
     timing.h \
     classes/Programmation.h \
     classes/Projet.h \
-    classes/Tache.h
+    classes/Tache.h \
+    classes/Activite.h
 
 FORMS    += mainwindow.ui
